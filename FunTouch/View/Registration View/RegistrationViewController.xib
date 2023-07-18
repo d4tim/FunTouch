@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RegistrationViewController" customModule="FunTouch" customModuleProvider="target">
+            <connections>
+                <outlet property="ageTextField" destination="Wbe-oS-Ckj" id="vaq-gy-3yj"/>
+                <outlet property="emailTextField" destination="Fis-0a-Ybt" id="wo8-pS-Aq1"/>
+                <outlet property="nameTextField" destination="St1-yi-yKq" id="hcK-Tu-7EH"/>
+                <outlet property="registrationButton" destination="VhM-wf-emt" id="VBs-U2-3xZ"/>
+                <outlet property="topLabel" destination="iea-mh-aVC" id="xOe-BY-OvM"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="GradientView" customModule="FunTouch" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Розкажіть трохи про себе" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iea-mh-aVC">
+                    <rect key="frame" x="45" y="69" width="303" height="71.666666666666686"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="SFf-4n-MS8">
+                    <rect key="frame" x="25" y="741" width="343" height="92"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VhM-wf-emt">
+                            <rect key="frame" x="0.0" y="0.0" width="343" height="50"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="5yG-0b-AKg"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Зарееструватися">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CyU-9k-eSL">
+                            <rect key="frame" x="0.0" y="58" width="343" height="34"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="wBM-Cr-1bZ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Продовжити">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="CyU-9k-eSL" firstAttribute="leading" secondItem="SFf-4n-MS8" secondAttribute="leading" id="iGa-Jz-6Dk"/>
+                        <constraint firstItem="VhM-wf-emt" firstAttribute="top" secondItem="SFf-4n-MS8" secondAttribute="top" id="pFz-BN-azD"/>
+                        <constraint firstAttribute="trailing" secondItem="CyU-9k-eSL" secondAttribute="trailing" id="wat-jv-qcS"/>
+                        <constraint firstAttribute="trailing" secondItem="VhM-wf-emt" secondAttribute="trailing" id="yFm-52-69n"/>
+                        <constraint firstItem="VhM-wf-emt" firstAttribute="leading" secondItem="SFf-4n-MS8" secondAttribute="leading" id="yr4-p6-dHI"/>
+                    </constraints>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="PTF-fM-9CM">
+                    <rect key="frame" x="50" y="290.66666666666669" width="293" height="223.00000000000006"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="St1-yi-yKq">
+                            <rect key="frame" x="0.0" y="0.0" width="293" height="52"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="52" id="TVp-FD-71A"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Wbe-oS-Ckj">
+                            <rect key="frame" x="0.0" y="57" width="293" height="52"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="52" id="LvY-3M-J9H"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="fiR-66-6b0">
+                            <rect key="frame" x="0.0" y="114" width="293" height="52"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="irJ-bb-qmK">
+                                    <rect key="frame" x="0.0" y="0.0" width="142.66666666666666" height="52"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="52" id="e3v-s0-WS6"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Чоловік">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Ro-dO-ikg">
+                                    <rect key="frame" x="150.66666666666663" y="0.0" width="142.33333333333337" height="52"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="52" id="Sz1-5X-uLm"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" title="Жінка">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Fis-0a-Ybt">
+                            <rect key="frame" x="0.0" y="171" width="293" height="52"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="52" id="pSj-bs-8zW"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="iea-mh-aVC" secondAttribute="trailing" constant="45" id="8Sh-hR-5TH"/>
+                <constraint firstItem="SFf-4n-MS8" firstAttribute="top" secondItem="PTF-fM-9CM" secondAttribute="bottom" constant="166" id="Czv-lH-ohQ" userLabel="baseBottomConst"/>
+                <constraint firstItem="SFf-4n-MS8" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" constant="15" id="EVd-4r-pai"/>
+                <constraint firstItem="iea-mh-aVC" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="GKK-zJ-hwJ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="PTF-fM-9CM" secondAttribute="trailing" constant="50" id="MEj-71-kC1"/>
+                <constraint firstItem="SFf-4n-MS8" firstAttribute="top" secondItem="PTF-fM-9CM" secondAttribute="bottom" constant="10" id="NOP-Od-ZsH"/>
+                <constraint firstItem="SFf-4n-MS8" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="25" id="VXR-bm-Rsd"/>
+                <constraint firstItem="PTF-fM-9CM" firstAttribute="top" secondItem="iea-mh-aVC" secondAttribute="bottom" constant="150" id="Wgk-5E-v0z"/>
+                <constraint firstItem="iea-mh-aVC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="45" id="cl9-ru-xjk"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="SFf-4n-MS8" secondAttribute="trailing" constant="25" id="m0f-nt-HhU"/>
+                <constraint firstItem="PTF-fM-9CM" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="50" id="p0U-6M-gIq"/>
+                <constraint firstItem="PTF-fM-9CM" firstAttribute="top" secondItem="iea-mh-aVC" secondAttribute="bottom" constant="133.33333333333331" id="uME-H4-4YO" userLabel="baseTopConst"/>
+            </constraints>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="color" keyPath="topColor">
+                    <color key="value" red="0.4005985219" green="0.94131178270000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="color" keyPath="topButton">
+                    <color key="value" red="0.1137254902" green="0.38431372549999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="point" keyPath="endDirection">
+                    <point key="value" x="1" y="0.0"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="point" keyPath="startDirection">
+                    <point key="value" x="1" y="0.0"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Wgk-5E-v0z"/>
+                    <exclude reference="uME-H4-4YO"/>
+                    <exclude reference="Czv-lH-ohQ"/>
+                    <exclude reference="NOP-Od-ZsH"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=compact-widthClass=regular">
+                <mask key="constraints">
+                    <include reference="NOP-Od-ZsH"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="constraints">
+                    <include reference="Wgk-5E-v0z"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="75.572519083969468" y="-11.267605633802818"/>
+        </view>
+    </objects>
+</document>
