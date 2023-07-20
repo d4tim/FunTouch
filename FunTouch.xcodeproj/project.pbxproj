@@ -24,11 +24,14 @@
 		3B5BC5982A3C7C7200450F31 /* AnotherXibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B5BC5962A3C7C7200450F31 /* AnotherXibViewController.xib */; };
 		3B5BC59C2A3C80E300450F31 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5BC59A2A3C80E300450F31 /* CustomTableViewCell.swift */; };
 		3B5BC59D2A3C80E300450F31 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B5BC59B2A3C80E300450F31 /* CustomTableViewCell.xib */; };
+		3B5CF26B2A66FBCF003CC87F /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5CF26A2A66FBCF003CC87F /* Alerts.swift */; };
 		3B6808452A4060B500E7D327 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6808432A4060B500E7D327 /* CustomView.swift */; };
 		3B6808462A4060B500E7D327 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B6808442A4060B500E7D327 /* CustomView.xib */; };
 		3BDC72932A5B3FC50018D1DF /* ViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDC72922A5B3FC50018D1DF /* ViewConfig.swift */; };
 		3BEDCB482A44E023002D3BEB /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEDCB462A44E023002D3BEB /* NoteViewController.swift */; };
 		3BEDCB492A44E023002D3BEB /* NoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BEDCB472A44E023002D3BEB /* NoteViewController.xib */; };
+		3BEEFAD12A66E702009B031D /* AlertsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEEFACF2A66E702009B031D /* AlertsViewController.swift */; };
+		3BEEFAD22A66E702009B031D /* AlertsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BEEFAD02A66E702009B031D /* AlertsViewController.xib */; };
 		3BEF3DEC2A64028E00C68E92 /* UntiltheTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEF3DEA2A64028E00C68E92 /* UntiltheTouchViewController.swift */; };
 		3BEF3DED2A64028E00C68E92 /* UntiltheTouchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BEF3DEB2A64028E00C68E92 /* UntiltheTouchViewController.xib */; };
 		3BEF3DF02A64350300C68E92 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BEF3DEE2A64350300C68E92 /* MessageViewController.swift */; };
@@ -55,11 +58,14 @@
 		3B5BC5962A3C7C7200450F31 /* AnotherXibViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnotherXibViewController.xib; sourceTree = "<group>"; };
 		3B5BC59A2A3C80E300450F31 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		3B5BC59B2A3C80E300450F31 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		3B5CF26A2A66FBCF003CC87F /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 		3B6808432A4060B500E7D327 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		3B6808442A4060B500E7D327 /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
 		3BDC72922A5B3FC50018D1DF /* ViewConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfig.swift; sourceTree = "<group>"; };
 		3BEDCB462A44E023002D3BEB /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 		3BEDCB472A44E023002D3BEB /* NoteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoteViewController.xib; sourceTree = "<group>"; };
+		3BEEFACF2A66E702009B031D /* AlertsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsViewController.swift; sourceTree = "<group>"; };
+		3BEEFAD02A66E702009B031D /* AlertsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertsViewController.xib; sourceTree = "<group>"; };
 		3BEF3DEA2A64028E00C68E92 /* UntiltheTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UntiltheTouchViewController.swift; sourceTree = "<group>"; };
 		3BEF3DEB2A64028E00C68E92 /* UntiltheTouchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UntiltheTouchViewController.xib; sourceTree = "<group>"; };
 		3BEF3DEE2A64350300C68E92 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +133,7 @@
 			children = (
 				3B311B1A2A5AD7A200D659AF /* GradientView.swift */,
 				3BDC72922A5B3FC50018D1DF /* ViewConfig.swift */,
+				3B5CF26A2A66FBCF003CC87F /* Alerts.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -150,6 +157,7 @@
 		3B5A9D002A2C664700818902 /* FunTouch */ = {
 			isa = PBXGroup;
 			children = (
+				3BEEFACE2A66E6E7009B031D /* AlertView */,
 				3B9E54FE2A3BA6E400EAE083 /* View */,
 				3B5A9D052A2C664700818902 /* ViewController.swift */,
 				3B311B192A5AD54E00D659AF /* Model */,
@@ -203,6 +211,15 @@
 				3B311B0F2A5ACA5F00D659AF /* Main View */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		3BEEFACE2A66E6E7009B031D /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				3BEEFACF2A66E702009B031D /* AlertsViewController.swift */,
+				3BEEFAD02A66E702009B031D /* AlertsViewController.xib */,
+			);
+			path = AlertView;
 			sourceTree = "<group>";
 		};
 		3BEF3DE82A64016600C68E92 /* Until the touch */ = {
@@ -287,6 +304,7 @@
 				3B5BC59D2A3C80E300450F31 /* CustomTableViewCell.xib in Resources */,
 				3B5A9D092A2C664700818902 /* Main.storyboard in Resources */,
 				3B311B182A5ACB3400D659AF /* RegistrationViewController.xib in Resources */,
+				3BEEFAD22A66E702009B031D /* AlertsViewController.xib in Resources */,
 				3BEDCB492A44E023002D3BEB /* NoteViewController.xib in Resources */,
 				3B5A9D182A2C66A100818902 /* mainViewController.xib in Resources */,
 				3BEF3DED2A64028E00C68E92 /* UntiltheTouchViewController.xib in Resources */,
@@ -305,11 +323,13 @@
 			files = (
 				3BDC72932A5B3FC50018D1DF /* ViewConfig.swift in Sources */,
 				3B5BC59C2A3C80E300450F31 /* CustomTableViewCell.swift in Sources */,
+				3B5CF26B2A66FBCF003CC87F /* Alerts.swift in Sources */,
 				3B5A9D062A2C664700818902 /* ViewController.swift in Sources */,
 				3B311B1B2A5AD7A200D659AF /* GradientView.swift in Sources */,
 				3B311B1E2A5B063A00D659AF /* MainViewController.swift in Sources */,
 				3B5A9D022A2C664700818902 /* AppDelegate.swift in Sources */,
 				3BEF3DF02A64350300C68E92 /* MessageViewController.swift in Sources */,
+				3BEEFAD12A66E702009B031D /* AlertsViewController.swift in Sources */,
 				3B311B172A5ACB3400D659AF /* RegistrationViewController.swift in Sources */,
 				3B6808452A4060B500E7D327 /* CustomView.swift in Sources */,
 				3BEDCB482A44E023002D3BEB /* NoteViewController.swift in Sources */,
