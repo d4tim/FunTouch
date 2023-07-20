@@ -34,6 +34,12 @@ class ViewController: UIViewController {
         navigationController?.pushViewController(testPush, animated: true)
     }
     
+    @IBAction func alertsView(_ sender: UIButton) {
+        let alertGO = AlertsViewController()
+        navigationController?.pushViewController(alertGO, animated: true)
+    }
+    
+    
     
     /*
          Push переход:

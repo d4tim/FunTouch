@@ -148,10 +148,13 @@
                                             <constraint firstAttribute="height" constant="40" id="dKC-EJ-YKx"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="-">
+                                        <buttonConfiguration key="configuration" style="filled" title="Alerts">
                                             <color key="baseForegroundColor" systemColor="systemMintColor"/>
                                             <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="alertsView:" destination="hgO-py-mLu" eventType="touchUpInside" id="wZD-ng-C9x"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="250" placeholderIntrinsicHeight="40" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jy6-EN-hZC">
                                         <rect key="frame" x="0.0" y="192" width="253" height="40"/>
